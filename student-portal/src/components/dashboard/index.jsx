@@ -408,7 +408,7 @@ const Dashboard = () => {
                                         <svg className="h-4 fill-current mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M11 4c-3.855 0-7 3.145-7 7v28c0 3.855 3.145 7 7 7h28c3.855 0 7-3.145 7-7V11c0-3.855-3.145-7-7-7zm0 2h28c2.773 0 5 2.227 5 5v28c0 2.773-2.227 5-5 5H11c-2.773 0-5-2.227-5-5V11c0-2.773 2.227-5 5-5zm25.234 9.832l-13.32 15.723-8.133-7.586-1.363 1.465 9.664 9.015 14.684-17.324z" /></svg>
                                         3/5
                                     </span>
-                                    <img src="https://i.imgur.com/OZaT7jl.png" className="rounded-full" />
+                                    <img alt='' src="https://i.imgur.com/OZaT7jl.png" className="rounded-full" />
                                 </div>
                             </div>
                             <div className="bg-white dark:bg-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 p-2 rounded mt-1 border-b border-gray-100 dark:border-gray-900 cursor-pointer">Check the meta tags</div>
@@ -500,7 +500,7 @@ const Dashboard = () => {
                                     <td className="px-4 py-3">
                                         <div className="flex items-center text-sm">
                                             <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
-                                                <img className="object-cover w-full h-full rounded-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=200&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE3Nzg0fQ" alt="" loading="lazy" />
+                                                <img alt="" className="object-cover w-full h-full rounded-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=200&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjE3Nzg0fQ" loading="lazy" />
                                                 <div className="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                                             </div>
                                             <div>
@@ -519,7 +519,7 @@ const Dashboard = () => {
                                     <td className="px-4 py-3">
                                         <div className="flex items-center text-sm">
                                             <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
-                                                <img className="object-cover w-full h-full rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=200&amp;facepad=3&amp;fit=facearea&amp;s=707b9c33066bf8808c934c8ab394dff6" alt="" loading="lazy" />
+                                                <img alt="" className="object-cover w-full h-full rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=200&amp;facepad=3&amp;fit=facearea&amp;s=707b9c33066bf8808c934c8ab394dff6" loading="lazy" />
                                                 <div className="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                                             </div>
                                             <div>

@@ -147,6 +147,11 @@
     border-color: black;
 }
 
+/* Add styles for dark:divide-black */
+.dark .dark\:divide-black> :not([hidden])~ :not([hidden]) {
+    border-color: black;
+}
+
 /* Custom style */
 .header-right {
     width: calc(100% - 3.5rem);
