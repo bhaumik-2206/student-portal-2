@@ -7,8 +7,8 @@ const links = {
     "Main": [
         { name: "Dashboard", href: "/dashboard", svg_icon: <SVG src='assets/icons/home.svg' /> },
         { name: "Exam", href: "/exam", svg_icon: <SVG src='assets/icons/board.svg' /> },
-        { name: "Message", href: "/message", svg_icon: <SVG src='assets/icons/message.svg' /> },
-        { name: "Notification", href: "/notification", svg_icon: <SVG src='assets/icons/notification.svg' /> },
+        { name: "Doubts", href: "/doubts", svg_icon: <SVG src='assets/icons/message.svg' /> },
+        { name: "Attendance", href: "/attendance", svg_icon: <SVG src='assets/icons/notification.svg' /> },
     ],
     "Settings": [
         { name: "Profile", href: "/profile", svg_icon: <SVG src='assets/icons/user.svg' /> },

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 import SVG from "react-inlinesvg"
-import ConfirmationModal from '../shared/confirmation-modal';
+import ConfirmationModal from '../shared/pop-up/confirmation-modal';
+import LogOut from '../shared/pop-up/log-out';
 
 const Header = ({ isDark, setIsDark }) => {
     const [show, setShow] = useState(false);
@@ -9,11 +10,11 @@ const Header = ({ isDark, setIsDark }) => {
         <>
             <div className="fixed w-full flex items-center justify-between h-14 text-white z-10 bg-blue-800">
                 <div className="flex items-center justify-start md:justify-center pl-3 w-14 md:w-64 h-14 bg-blue-800 dark:bg-gray-800 border-none">
-                    <img
+                    {/* <img
                         alt=''
                         className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-md overflow-hidden"
                         src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg"
-                    />
+                    /> */}
                     <span className="hidden md:block">Bhaumik Panchal</span>
                 </div>
                 <div className="flex justify-between items-center h-14 bg-blue-800 dark:bg-gray-800 header-right">
@@ -55,7 +56,8 @@ const Header = ({ isDark, setIsDark }) => {
                     </ul>
                 </div>
             </div>
-            <ConfirmationModal show={show} setShow={setShow} type="logout" />
+            {/* <ConfirmationModal show={show} setShow={setShow} type="logout" /> */}
+            <LogOut show={show} setShow={setShow} />
         </>
     )
 }
