@@ -46,7 +46,7 @@ const LogIn = () => {
                             href="/register"
                             className="ms-1 font-medium text-indigo-500 underline-offset-4 hover:underline"
                         >
-                            Create One
+                            Register
                         </Link>
                     </p>
                 </section>

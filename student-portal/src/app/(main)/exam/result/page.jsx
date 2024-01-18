@@ -19,6 +19,7 @@ const ExamResult = () => {
                     <div className="p-5 bg-white dark:bg-gray-800 flex items-center !mx-auto border-b  mb-10 border-gray-200 dark:border-gray-800 rounded-lg sm:flex-row flex-col">
                         <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center flex-shrink-0">
                             <img
+                                alt=''
                                 src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
                         </div>
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">

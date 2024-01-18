@@ -93,7 +93,7 @@ const SignUp = () => {
                                     </button>
                                 </div>
                                 <div className="flex items-center justify-center text-sm font-medium space-x-1 text-gray-500">
-                                    <p>Didn't receive the code?</p>
+                                    <p>Didn&apos;t receive the code?</p>
                                     <button
                                         type='button'
                                         className="flex items-center text-blue-600"
