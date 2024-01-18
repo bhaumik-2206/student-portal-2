@@ -34,8 +34,11 @@ const DoubtPage = () => {
                                 when an unknown printer took a galley of type and scrambled it to make a type
                                 specimen book.
                             </div>
-                            <div className="p-6 bg-white dark:bg-gray-900 border-gray-200 text-right">
-                                <svg class="feather feather-edit" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" /><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" /></svg>
+                            <div className="p-6 flex justify-between items-center bg-white dark:bg-gray-900 border-gray-200 text-right">
+                                <div className='flex items-center gap-4'>
+                                    <SVG src="/assets/icons/edit.svg" className='cursor-pointer' onClick={() => setShow(true)} />
+                                    <i class="fa-solid fa-trash text-red-500 cursor-pointer" onClick={() => setShow(true)}></i>
+                                </div>
                                 <Link className="bg-blue-500 shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-blue-400 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-gray-200 rounded uppercase"
                                     href="/doubts">Show full</Link>
                             </div>

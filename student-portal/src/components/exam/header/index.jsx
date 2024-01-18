@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 
 const ExamHeader = () => {
     const pathname = usePathname();
-    // console.log(pathName)
 
     const header_links = [
         { name: "Result", href: "/exam/result" },
