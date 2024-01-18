@@ -1,6 +1,6 @@
 "use client"
 // React Modules
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // constants and interfaces
 import Header from '@/components/header';
@@ -9,6 +9,18 @@ import SideBar from '@/components/side-bar';
 
 const RootLayout = ({ children }) => {
     const [isDark, setIsDark] = useState(false)
+    useEffect(() => {
+        let theme = localStorage.getItem("theme");
+        if (theme) {
+            if (theme.toLowerCase() === "dark") {
+                setIsDark(true);
+            } else {
+                setIsDark(false);
+            }
+        } else {
+            localStorage.setItem("theme", "light");
+        }
+    }, [])
     return (
         <>
             <div className={`${isDark && "dark"}`} >

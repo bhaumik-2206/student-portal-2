@@ -11,6 +11,10 @@
     background-color: rgba(249, 250, 251);
 }
 
+.dark .dark\:border-gray-800 {
+    border: rgb(34, 34, 34);
+}
+
 .dark .dark\:bg-gray-100 {
     background-color: rgba(243, 244, 246);
 }
@@ -45,6 +49,10 @@
 
 .dark .dark\:hover\:bg-gray-600:hover {
     background-color: rgba(75, 85, 99);
+}
+
+.dark .dark\:hover\:text-white:hover {
+    color: white;
 }
 
 .dark .dark\:hover\:bg-gray-700:hover {

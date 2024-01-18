@@ -39,7 +39,7 @@ const Profile = () => {
     return (
         loading ? (
             <div className='text-center py-4'>
-                <SVG src='assets/icons/loading.svg' className='inline w-12 h-12 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600' />
+                <SVG src='/assets/icons/loading.svg' className='inline w-12 h-12 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600' />
             </div>
         ) : (
             <div className="bg-white dark:bg-gray-700">
@@ -49,7 +49,7 @@ const Profile = () => {
                             <div className="bg-white dark:bg-gray-800 p-3 border-t-4 border-blue-800 dark:border-black">
                                 <h1 className="text-gray-900 dark:text-white font-bold text-xl leading-8 my-1">{userData.fname} {userData.lname}</h1>
                                 <ul
-                                    className="bg-gray-100 text-gray-600 hover:text-gray-700 hover:shadow py-2 px-3 mt-3 divide-y rounded shadow-sm">
+                                    className="bg-gray-100 dark:bg-gray-800 dark:text-gray-100 text-gray-600 hover:text-gray-700 hover:shadow py-2 px-3 mt-3 divide-y rounded shadow-sm">
                                     <li className="flex items-center py-3">
                                         <span>Status</span>
                                         <span className="ml-auto"><span

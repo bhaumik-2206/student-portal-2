@@ -1,5 +1,6 @@
-import Dashboard from '@/components/dashboard'
 import React from 'react'
+
+import Dashboard from '@/components/dashboard'
 
 const HomePage = () => {
     return (

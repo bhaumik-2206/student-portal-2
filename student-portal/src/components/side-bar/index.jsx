@@ -5,27 +5,27 @@ import SVG from "react-inlinesvg"
 
 const links = {
     "Main": [
-        { name: "Dashboard", href: "/dashboard", svg_icon: <SVG src='assets/icons/home.svg' /> },
-        { name: "Exam", href: "/exam", svg_icon: <SVG src='assets/icons/board.svg' /> },
-        { name: "Doubts", href: "/doubts", svg_icon: <SVG src='assets/icons/message.svg' /> },
-        { name: "Attendance", href: "/attendance", svg_icon: <SVG src='assets/icons/notification.svg' /> },
+        { name: "Dashboard", href: "/dashboard", svg_icon: <SVG src='/assets/icons/home.svg' /> },
+        { name: "Exam", href: "/exam", svg_icon: <SVG src='/assets/icons/board.svg' /> },
+        { name: "Doubts", href: "/doubts", svg_icon: <SVG src='/assets/icons/message.svg' /> },
+        { name: "Attendance", href: "/attendance", svg_icon: <SVG src='/assets/icons/notification.svg' /> },
     ],
     "Settings": [
-        { name: "Profile", href: "/profile", svg_icon: <SVG src='assets/icons/user.svg' /> },
-        { name: "Settings", href: "/settings", svg_icon: <SVG src='assets/icons/setting.svg' /> },
+        { name: "Profile", href: "/profile", svg_icon: <SVG src='/assets/icons/user.svg' /> },
+        { name: "Settings", href: "/settings", svg_icon: <SVG src='/assets/icons/setting.svg' /> },
     ]
 }
 
 const main_links = [
-    { name: "Dashboard", href: "/dashboard", svg_icon: <SVG src='assets/icons/home.svg' /> },
-    { name: "Board", href: "/board", svg_icon: <SVG src='assets/icons/board.svg' /> },
-    { name: "Message", href: "/message", svg_icon: <SVG src='assets/icons/message.svg' /> },
-    { name: "Notification", href: "/notification", svg_icon: <SVG src='assets/icons/notification.svg' /> },
+    { name: "Dashboard", href: "/dashboard", svg_icon: <SVG src='/assets/icons/home.svg' /> },
+    { name: "Board", href: "/board", svg_icon: <SVG src='/assets/icons/board.svg' /> },
+    { name: "Message", href: "/message", svg_icon: <SVG src='/assets/icons/message.svg' /> },
+    { name: "Notification", href: "/notification", svg_icon: <SVG src='/assets/icons/notification.svg' /> },
 ]
 
 const setting_link = [
-    { name: "Profile", href: "/profile", svg_icon: <SVG src='assets/icons/user.svg' /> },
-    { name: "Settings", href: "/setting", svg_icon: <SVG src='assets/icons/setting.svg' /> },
+    { name: "Profile", href: "/profile", svg_icon: <SVG src='/assets/icons/user.svg' /> },
+    { name: "Settings", href: "/setting", svg_icon: <SVG src='/assets/icons/setting.svg' /> },
 ]
 
 const SideBar = () => {
@@ -73,7 +73,7 @@ const SideBar = () => {
                         {/* <li>
                             <Link href="/" className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span className="inline-flex justify-center items-center ml-4">
-                                    <SVG src='assets/icons/home.svg' />
+                                    <SVG src='/assets/icons/home.svg' />
                                 </span>
                                 <span className="ml-2 text-sm tracking-wide truncate">Dashboard</span>
                             </Link>
@@ -81,7 +81,7 @@ const SideBar = () => {
                         <li>
                             <Link href="/" className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span className="inline-flex justify-center items-center ml-4">
-                                    <SVG src='assets/icons/board.svg' />
+                                    <SVG src='/assets/icons/board.svg' />
                                 </span>
                                 <span className="ml-2 text-sm tracking-wide truncate">Board</span>
                                 <span className="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-blue-500 bg-indigo-50 rounded-full">New</span>
@@ -90,7 +90,7 @@ const SideBar = () => {
                         <li>
                             <Link href="/" className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span className="inline-flex justify-center items-center ml-4">
-                                    <SVG src='assets/icons/message.svg' />
+                                    <SVG src='/assets/icons/message.svg' />
                                 </span>
                                 <span className="ml-2 text-sm tracking-wide truncate">Messages</span>
                             </Link>
@@ -98,7 +98,7 @@ const SideBar = () => {
                         <li>
                             <Link href="/" className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span className="inline-flex justify-center items-center ml-4">
-                                    <SVG src='assets/icons/notification.svg' />
+                                    <SVG src='/assets/icons/notification.svg' />
                                 </span>
                                 <span className="ml-2 text-sm tracking-wide truncate">Notifications</span>
                                 <span className="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full">1.2k</span>

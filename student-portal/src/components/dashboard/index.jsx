@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 
 const dashboard_greet = {
     "first": [
@@ -13,41 +13,36 @@ const dashboard_greet = {
 }
 
 const Dashboard = () => {
-    const [show, setShow] = useState(false)
 
     return (
         <>
-            <div className="bg-gray-100">
-                <section>
-                    <section className="text-gray-600 body-font">
-                        <div className="container px-5 mx-auto">
-                            <div className="p-5 bg-white flex items-center !mx-auto border-b  mb-10 border-gray-200 rounded-lg sm:flex-row flex-col">
-                                {/* <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center flex-shrink-0">
-                                    <img
-                                        src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
-                                </div> */}
-                                <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                                    <h1 className="text-black text-lg md:text-2xl title-font font-bold mb-2">Welcome , Bhaumik Panchal</h1>
-                                    <div className='lg:flex items-center sm:text-center font-bold text-gray-800'>
-                                        {Object.keys(dashboard_greet).map((ele, index) => (
-                                            <div key={index} className='w-full sm:flex items-center'>
-                                                {dashboard_greet[ele].map((item, i) => (
-                                                    <div key={index} className="w-full md:w-1/2 lg:w-full xl:w-1/4 mb-4 mx-auto">
-                                                        <h2 className="text-gray-500">
-                                                            {item.title}
-                                                        </h2>
-                                                        <p>{item.description}</p>
-                                                    </div>
-                                                ))}
+            <section className="text-gray-600 dark:text-white body-font pt-10 px-4">
+                <div className="mx-auto">
+                    <div className="p-5 bg-white dark:bg-gray-800 flex items-center !mx-auto border-b  mb-10 border-gray-200 dark:border-gray-800 rounded-lg sm:flex-row flex-col">
+                        <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center flex-shrink-0">
+                            <img
+                                src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
+                        </div>
+                        <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                            <h1 className="text-black dark:text-gray-100 text-lg md:text-2xl title-font font-bold mb-2">Welcome , Bhaumik Panchal</h1>
+                            <div className='lg:flex items-center sm:text-center font-bold text-gray-800'>
+                                {Object.keys(dashboard_greet).map((ele, index) => (
+                                    <div key={index} className='w-full sm:flex items-center'>
+                                        {dashboard_greet[ele].map((item, i) => (
+                                            <div key={index} className="w-full md:w-1/2 lg:w-full xl:w-1/4 mb-4 mx-auto">
+                                                <h2 className="text-gray-500 dark:text-gray-100">
+                                                    {item.title}
+                                                </h2>
+                                                <p className='dark:text-gray-100'>{item.description}</p>
                                             </div>
                                         ))}
                                     </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
-                    </section>
-                </section>
-            </div>
+                    </div>
+                </div>
+            </section>
 
 
 
